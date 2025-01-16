@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Noise Blender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Zen Noise Blender</h1>
+        <p>Blend your perfect relaxation sounds.</p>
+
+        <button id="start-button">Start Relaxing</button>
+
+        <div class="sound-control">
+            <label>Rain</label>
+            <input type="range" min="0" max="1" step="0.01" id="rain-slider">
+        </div>
+
+        <div class="sound-control">
+            <label>Ocean Waves</label>
+            <input type="range" min="0" max="1" step="0.01" id="ocean-slider">
+        </div>
+
+        <div class="sound-control">
+            <label>Crackling Fire</label>
+            <input type="range" min="0" max="1" step="0.01" id="fire-slider">
+        </div>
+
+        <div class="sound-control">
+            <label>Birds</label>
+            <input type="range" min="0" max="1" step="0.01" id="birds-slider">
+        </div>
+
+        <div class="sound-control">
+            <label>Thunder</label>
+            <input type="range" min="0" max="1" step="0.01" id="thunder-slider">
+        </div>
+    </div>
+
+    <div class="presets">
+        <h3>Presets</h3>
+        <button id="preset-rainy-day">Rainy Day</button>
+        <button id="preset-ocean-escape">Ocean Escape</button>
+        <button id="preset-cozy-fire">Cozy Fire</button>
+        <button id="all-off-button">All Off</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
